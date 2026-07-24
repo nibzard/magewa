@@ -36,19 +36,19 @@ copyButton?.addEventListener("click", async () => {
     await copyText(fullName);
     copyButton.classList.add("is-copied");
     ratification?.classList.add("is-confirmed");
-    copyLabel.textContent = "Designation copied";
+    copyLabel.textContent = "Pilot outline copied";
     copyIcon.textContent = "✓";
-    copyStatus.textContent = "Full MAGEWA designation copied to clipboard.";
+    copyStatus.textContent = "MAGEWA pilot outline copied to clipboard.";
   } catch {
     copyLabel.textContent = "Select and copy manually";
     copyStatus.textContent =
-      "Automatic copy was unavailable. Select the designation above and copy it manually.";
+      "Automatic copy was unavailable. Please copy the pilot outline manually.";
   }
 
   copyResetTimer = window.setTimeout(() => {
     copyButton.classList.remove("is-copied");
     ratification?.classList.remove("is-confirmed");
-    copyLabel.textContent = "Copy full designation";
+    copyLabel.textContent = "Copy pilot outline";
     copyIcon.textContent = "⧉";
     copyStatus.textContent = "";
   }, 3200);

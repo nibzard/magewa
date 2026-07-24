@@ -1,13 +1,19 @@
-# MAGEWA naming standard
+# MAGEWA company site
 
-A build-free GitHub Pages site for:
+A build-free GitHub Pages site for MAGEWA, an AI production workspace that
+turns client knowledge and agency IP into source-backed proposals, decks,
+wireframes, research, and prototypes.
 
-> MAGEWA — The Multi-Agent Global Enterprise for Work Automation
+The commercial narrative is grounded in the repository product specification:
+versioned knowledge, Context Packs, bounded agent pipelines, editable artifacts,
+evidence, and controlled client previews. The page presents those capabilities
+as a coherent platform, a set of repeatable workflows, and an implementation
+service for agencies and creative teams.
 
-The page translates the approved “Definitive Category Grid” direction into an
-industrial identity system: governmental typography, drawing-register labels,
-blueprint geometry, calibrated grids, layered gradients, grain, and restrained
-motion.
+The visual direction remains the approved “Definitive Category Grid”: an
+industrial identity system built from governmental typography, drawing-register
+labels, blueprint geometry, calibrated grids, layered gradients, grain, and
+restrained motion.
 
 The selected figurative mark is proposal 12: six angular inputs converge into a
 single execution vector. It intentionally avoids circular and opening-like
@@ -18,14 +24,22 @@ lightweight at every size.
 
 - `index.html` — complete semantic page and inline vector marks
 - `styles.css` — responsive visual system and motion preferences
-- `script.js` — copy interaction, current year, and progressive reveal
+- `script.js` — pilot-outline copy interaction, current year, and progressive reveal
 - `brand-card.html` — compatibility redirect from the previous page
 - `.nojekyll` — serves the static files directly on GitHub Pages
 
 The repository’s existing `CNAME` and `SPECS.md` should remain in place. The
-site uses relevant product language from the product specification—Context
-Packs, agent pipelines, versioned artifacts, provenance, and shareable
-previews—without replacing the specification itself.
+site expresses the product strategy in customer-facing language without
+replacing the specification itself.
+
+## Page structure
+
+- Outcome-led hero and platform promise
+- Eight-stage governed production loop
+- Six product surfaces across the production chain
+- Four representative client-work workflows
+- Five implementation services
+- Focused one-workflow pilot call to action
 
 ## Preview locally
 
