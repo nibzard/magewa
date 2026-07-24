@@ -59,8 +59,6 @@ document.querySelectorAll("[data-year]").forEach((node) => {
 });
 
 const motionGroups = [
-  ".acronym-register .acronym-cell",
-  ".formula .formula-unit",
   ".rules-grid .rule-card",
   ".lexicon-table .lexicon-row:not(.lexicon-row-head)",
   ".pipeline-strip > div",
@@ -83,9 +81,11 @@ motionGroups.forEach((selector) => {
   spotlightGroups.push(group);
 });
 
-document.querySelectorAll(".formula-calibration i").forEach((tick, index) => {
-  tick.style.setProperty("--tick-order", index);
-});
+const tapOnlyItems = [
+  ...document.querySelectorAll(".acronym-register .acronym-cell"),
+];
+const pressableItems = [...motionItems, ...tapOnlyItems];
+pressableItems.forEach((item) => item.classList.add("motion-pressable"));
 
 const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
 const coarsePointer = window.matchMedia("(hover: none), (pointer: coarse)");
@@ -353,7 +353,7 @@ document.addEventListener(
   (event) => {
     if (!coarsePointer.matches) return;
 
-    const item = event.target.closest(".motion-item");
+    const item = event.target.closest(".motion-pressable");
     if (!item) return;
 
     clearPressedItems();

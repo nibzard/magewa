@@ -336,9 +336,8 @@ button:focus-visible {
   display: inline-flex;
   min-height: 48px;
   align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  padding: 0 18px 0 22px;
+  justify-content: center;
+  padding: 0 24px;
   font-size: 0.98rem;
   transition: transform 180ms ease, background-color 180ms ease;
 }
@@ -354,16 +353,6 @@ button:focus-visible {
 .button-primary:focus-visible {
   background: var(--violet);
   transform: translateY(-2px);
-}
-
-.button-primary span {
-  color: var(--lime);
-  transition: transform 180ms ease;
-}
-
-.button-primary:hover span,
-.button-primary:focus-visible span {
-  transform: translate(2px, 2px);
 }
 
 .button-primary:active {
@@ -643,14 +632,12 @@ button:focus-visible {
   border-left: 1px solid var(--line);
   transition:
     color 220ms ease,
-    background-color 220ms ease,
-    box-shadow 220ms ease;
+    background-color 220ms ease;
 }
 
-.acronym-cell:is(.is-spotlit, .is-pressed) {
+.acronym-cell.is-pressed {
   color: #fff;
   background: var(--blue);
-  box-shadow: inset 0 -3px 0 var(--lime);
 }
 
 .cell-meta {
@@ -667,7 +654,7 @@ button:focus-visible {
   transition: transform 220ms ease;
 }
 
-.acronym-cell:is(.is-spotlit, .is-pressed) .cell-meta i {
+.acronym-cell.is-pressed .cell-meta i {
   transform: translate(-3px, 3px) rotate(90deg);
 }
 
@@ -687,11 +674,11 @@ button:focus-visible {
   transition: transform 220ms ease, opacity 220ms ease;
 }
 
-.acronym-cell:is(.is-spotlit, .is-pressed) strong {
+.acronym-cell.is-pressed strong {
   transform: translateY(-2px) scale(1.025);
 }
 
-.acronym-cell:is(.is-spotlit, .is-pressed) p {
+.acronym-cell.is-pressed p {
   opacity: 0.82;
   transform: translateX(4px);
 }
@@ -816,19 +803,11 @@ button:focus-visible {
   border-right: 1px solid var(--line);
 }
 
-.formula-unit {
-  transition:
-    color 240ms ease,
-    background-color 240ms ease,
-    box-shadow 240ms ease;
-}
-
 .formula-unit strong {
   font-size: clamp(2.2rem, 4.2vw, 4.6rem);
   font-weight: 820;
   letter-spacing: -0.06em;
   line-height: 0.95;
-  transition: transform 240ms cubic-bezier(0.2, 0.75, 0.25, 1);
 }
 
 .formula-unit small {
@@ -836,7 +815,6 @@ button:focus-visible {
   font-size: 0.67rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  transition: color 240ms ease, transform 240ms ease;
 }
 
 .formula-plus {
@@ -853,29 +831,6 @@ button:focus-visible {
   justify-content: center;
   color: #fff;
   background: var(--blue);
-}
-
-.formula-unit:not(.formula-hinge):is(.is-spotlit, .is-pressed) {
-  background-color: rgb(22 75 255 / 9%);
-  box-shadow: inset 0 -3px 0 var(--blue);
-}
-
-.formula-unit:is(.is-spotlit, .is-pressed) strong {
-  transform: translateY(-4px);
-}
-
-.formula-unit:not(.formula-hinge):is(.is-spotlit, .is-pressed) small {
-  color: var(--blue);
-  transform: translateX(3px);
-}
-
-.formula-hinge:is(.is-spotlit, .is-pressed) {
-  background-color: var(--violet);
-  box-shadow: inset 0 -3px 0 var(--lime);
-}
-
-.formula-hinge:is(.is-spotlit, .is-pressed) strong {
-  transform: translateY(-2px) scale(1.06);
 }
 
 .formula-hinge strong {
@@ -1105,14 +1060,12 @@ button:focus-visible {
   border-bottom: 1px solid var(--line);
   transition:
     color 180ms ease,
-    background-color 180ms ease,
-    box-shadow 180ms ease;
+    background-color 180ms ease;
 }
 
 .lexicon-row:not(.lexicon-row-head):is(.is-spotlit, .is-pressed) {
   color: #fff;
   background: var(--blue);
-  box-shadow: inset 4px 0 0 var(--lime);
 }
 
 .lexicon-row > span:first-child {
@@ -1225,8 +1178,7 @@ button:focus-visible {
   justify-content: space-between;
   transition:
     color 220ms ease,
-    background-color 220ms ease,
-    box-shadow 220ms ease;
+    background-color 220ms ease;
 }
 
 .pipeline-strip > div span,
@@ -1250,7 +1202,6 @@ button:focus-visible {
 
 .pipeline-strip > div:is(.is-spotlit, .is-pressed) {
   background: rgb(22 75 255 / 24%);
-  box-shadow: inset 0 -3px 0 var(--lime);
 }
 
 .pipeline-strip > div:is(.is-spotlit, .is-pressed) span {
@@ -1287,10 +1238,7 @@ button:focus-visible {
   border-right: 1px solid rgb(255 255 255 / 35%);
   border-bottom: 1px solid rgb(255 255 255 / 35%);
   background: rgb(255 255 255 / 2%);
-  transition:
-    background-color 240ms ease,
-    border-color 240ms ease,
-    box-shadow 240ms ease;
+  transition: background-color 240ms ease;
 }
 
 .capability-card::before {
@@ -1367,8 +1315,6 @@ button:focus-visible {
 
 .capability-card:is(.is-spotlit, .is-pressed) {
   background-color: rgb(22 75 255 / 12%);
-  border-color: rgb(183 242 10 / 58%);
-  box-shadow: inset 0 -3px 0 var(--lime);
 }
 
 .capability-card:is(.is-spotlit, .is-pressed)::before {
@@ -1454,16 +1400,11 @@ button:focus-visible {
   border-right: 1px solid rgb(255 255 255 / 26%);
   border-bottom: 1px solid rgb(255 255 255 / 26%);
   background: rgb(255 255 255 / 2%);
-  transition:
-    background-color 220ms ease,
-    border-color 220ms ease,
-    box-shadow 220ms ease;
+  transition: background-color 220ms ease;
 }
 
 .decision-card:is(.is-spotlit, .is-pressed) {
-  border-color: rgb(183 242 10 / 52%);
   background: rgb(22 75 255 / 18%);
-  box-shadow: inset 0 -3px 0 var(--lime);
 }
 
 .decision-card h3 {
@@ -1700,16 +1641,6 @@ button:focus-visible {
   transform: none;
 }
 
-.has-motion .protocol-section:not(.is-visible) .formula-calibration i {
-  transform: scaleY(0);
-}
-
-.has-motion .protocol-section.is-visible .formula-calibration i {
-  animation: calibration-draw 360ms cubic-bezier(0.2, 0.75, 0.25, 1)
-    calc(var(--tick-order, 0) * 18ms) both;
-  transform-origin: top;
-}
-
 .has-motion .ratification .final-lockup,
 .has-motion .ratification .final-name {
   opacity: 0;
@@ -1735,7 +1666,6 @@ button:focus-visible {
   .acronym-cell:hover {
     color: #fff;
     background: var(--blue);
-    box-shadow: inset 0 -3px 0 var(--lime);
   }
 
   .acronym-cell:hover .cell-meta i {
@@ -1749,29 +1679,6 @@ button:focus-visible {
   .acronym-cell:hover p {
     opacity: 0.82;
     transform: translateX(4px);
-  }
-
-  .formula-unit:not(.formula-hinge):hover {
-    background-color: rgb(22 75 255 / 9%);
-    box-shadow: inset 0 -3px 0 var(--blue);
-  }
-
-  .formula-unit:hover strong {
-    transform: translateY(-4px);
-  }
-
-  .formula-unit:not(.formula-hinge):hover small {
-    color: var(--blue);
-    transform: translateX(3px);
-  }
-
-  .formula-hinge:hover {
-    background-color: var(--violet);
-    box-shadow: inset 0 -3px 0 var(--lime);
-  }
-
-  .formula-hinge:hover strong {
-    transform: translateY(-2px) scale(1.06);
   }
 
   .rule-card:hover {
@@ -1805,7 +1712,6 @@ button:focus-visible {
   .lexicon-row:not(.lexicon-row-head):hover {
     color: #fff;
     background: var(--blue);
-    box-shadow: inset 4px 0 0 var(--lime);
   }
 
   .lexicon-row:not(.lexicon-row-head):hover > span:first-child {
@@ -1823,7 +1729,6 @@ button:focus-visible {
 
   .pipeline-strip > div:hover {
     background: rgb(22 75 255 / 24%);
-    box-shadow: inset 0 -3px 0 var(--lime);
   }
 
   .pipeline-strip > div:hover span {
@@ -1845,9 +1750,7 @@ button:focus-visible {
   }
 
   .capability-card:hover {
-    border-color: rgb(183 242 10 / 58%);
     background-color: rgb(22 75 255 / 12%);
-    box-shadow: inset 0 -3px 0 var(--lime);
   }
 
   .capability-card:hover::before {
@@ -1869,9 +1772,7 @@ button:focus-visible {
   }
 
   .decision-card:hover {
-    border-color: rgb(183 242 10 / 52%);
     background: rgb(22 75 255 / 18%);
-    box-shadow: inset 0 -3px 0 var(--lime);
   }
 
   .decision-card:hover h3 {
@@ -1885,15 +1786,6 @@ button:focus-visible {
   .decision-card:hover .decision-code span:last-child {
     color: #fff;
     transform: translateX(-3px);
-  }
-}
-
-@keyframes calibration-draw {
-  from {
-    transform: scaleY(0);
-  }
-  to {
-    transform: scaleY(1);
   }
 }
 
@@ -2014,10 +1906,13 @@ button:focus-visible {
   }
 
   .hero {
-    min-height: 850px;
+    display: flex;
+    min-height: 0;
+    flex-direction: column;
   }
 
   .hero-content {
+    order: 1;
     padding: 40px 0 0;
   }
 
@@ -2026,11 +1921,15 @@ button:focus-visible {
   }
 
   .hero-object {
-    top: 355px;
+    position: relative;
+    top: auto;
     right: auto;
     left: -15vw;
+    order: 2;
     width: 118vw;
     height: 500px;
+    margin-top: 24px;
+    flex: 0 0 auto;
     opacity: 0.9;
   }
 
@@ -2267,7 +2166,7 @@ button:focus-visible {
   }
 
   .hero {
-    min-height: 760px;
+    min-height: 0;
   }
 
   .hero h1 {
@@ -2286,10 +2185,11 @@ button:focus-visible {
   }
 
   .hero-object {
-    top: 350px;
+    top: auto;
     left: -24vw;
     width: 145vw;
     height: 430px;
+    margin-top: 18px;
   }
 
   .registry-panel-primary {
@@ -2389,8 +2289,7 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .spectral-fog,
   .blueprint-svg,
-  .status-light,
-  .formula-calibration i {
+  .status-light {
     animation: none !important;
   }
 
