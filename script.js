@@ -1,59 +1,5 @@
 "use strict";
 
-const copyButton = document.querySelector("[data-copy-name]");
-const copyLabel = document.querySelector("[data-copy-label]");
-const copyStatus = document.querySelector("[data-copy-status]");
-const copyIcon = copyButton?.querySelector(".copy-icon");
-const ratification = copyButton?.closest(".ratification");
-let copyResetTimer;
-
-async function copyText(text) {
-  if (navigator.clipboard && window.isSecureContext) {
-    await navigator.clipboard.writeText(text);
-    return;
-  }
-
-  const field = document.createElement("textarea");
-  field.value = text;
-  field.setAttribute("readonly", "");
-  field.style.position = "fixed";
-  field.style.opacity = "0";
-  document.body.appendChild(field);
-  field.select();
-  const copied = document.execCommand("copy");
-  field.remove();
-
-  if (!copied) {
-    throw new Error("Copy command was not accepted.");
-  }
-}
-
-copyButton?.addEventListener("click", async () => {
-  const fullName = copyButton.dataset.copyText ?? "";
-  window.clearTimeout(copyResetTimer);
-
-  try {
-    await copyText(fullName);
-    copyButton.classList.add("is-copied");
-    ratification?.classList.add("is-confirmed");
-    copyLabel.textContent = "Designation copied";
-    copyIcon.textContent = "✓";
-    copyStatus.textContent = "Full MAGEWA designation copied to clipboard.";
-  } catch {
-    copyLabel.textContent = "Select and copy manually";
-    copyStatus.textContent =
-      "Automatic copy was unavailable. Select the designation above and copy it manually.";
-  }
-
-  copyResetTimer = window.setTimeout(() => {
-    copyButton.classList.remove("is-copied");
-    ratification?.classList.remove("is-confirmed");
-    copyLabel.textContent = "Copy full designation";
-    copyIcon.textContent = "⧉";
-    copyStatus.textContent = "";
-  }, 3200);
-});
-
 document.querySelectorAll("[data-year]").forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
