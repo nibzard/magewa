@@ -1,14 +1,14 @@
 # MAGEWA company site
 
 A build-free GitHub Pages site for MAGEWA, an AI production workspace that
-turns client knowledge and agency IP into source-backed proposals, decks,
-wireframes, research, and prototypes.
+turns managed client and institutional knowledge into traceable proposals,
+decks, wireframes, research, and prototypes.
 
 The commercial narrative is grounded in the repository product specification:
 versioned knowledge, Context Packs, bounded agent pipelines, editable artifacts,
 evidence, and controlled client previews. The page presents those capabilities
-as a coherent platform, a set of repeatable workflows, and an implementation
-service for agencies and creative teams.
+as a coherent platform, a set of repeatable workflows, and an example pilot
+engagement for agencies and enterprise teams.
 
 The visual direction remains the approved “Definitive Category Grid”: an
 industrial identity system built from governmental typography, drawing-register
@@ -24,7 +24,7 @@ lightweight at every size.
 
 - `index.html` — complete semantic page and inline vector marks
 - `styles.css` — responsive visual system and motion preferences
-- `script.js` — pilot-outline copy interaction, current year, and progressive reveal
+- `script.js` — current year, progressive reveal, and mobile interaction states
 - `brand-card.html` — compatibility redirect from the previous page
 - `.nojekyll` — serves the static files directly on GitHub Pages
 
