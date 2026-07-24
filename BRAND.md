@@ -1,66 +1,193 @@
-# Magewa
+# MAGEWA Brand Standard
 
-## Tagline
+**Registry:** MAGEWA/BRAND/001  
+**Status:** Canonical  
+**Identity:** MAGEWA  
+**Full name:** The Multi-Agent Global Enterprise for Work Automation  
+**Tagline:** Bind knowledge into deliverables.
+
+## 1. What MAGEWA is
+
+MAGEWA is a creative intelligence platform for agencies and enterprise teams. It turns managed knowledge, client context, and reusable operating methods into governed multi-agent pipelines that produce real deliverables.
+
+The product is built around four ideas:
+
+- **Context is managed infrastructure.** Client knowledge and institutional IP are packaged, versioned, and reusable.
+- **Agents work as a system.** Specialist agents coordinate against shared context instead of operating as disconnected assistants.
+- **Pipelines create outcomes.** The system produces proposals, decks, wireframes, prototypes, and other business artifacts.
+- **Work remains accountable.** Outputs retain provenance, version history, and shareable previews.
+
+### One-sentence pitch
+
+MAGEWA is a versioned AI workspace that turns client knowledge and enterprise IP into traceable deliverables.
+
+### Product promise
+
+Bind knowledge into deliverables.
+
+The tagline is intentionally compact. “Bind” describes the act of assembling distributed knowledge, rules, and agents into one governed system. “Deliverables” keeps the promise grounded in finished work rather than generic intelligence.
+
+## 2. The name
+
+The canonical expression is:
+
+> **MAGEWA — The Multi-Agent Global Enterprise for Work Automation**
+
+The name is literal, category-defining, and operational. It should sound like the definitive company in its category rather than an invented technology label.
+
+| Letter | Word | Role |
+|---|---|---|
+| M | Multi | More than one specialist intelligence |
+| A | Agent | Autonomous, coordinated units of work |
+| G | Global | International reach and shared operating scale |
+| E | Enterprise | Governance, reliability, and organizational fit |
+| W | Work | Real business activity and accountable output |
+| A | Automation | Repeatable execution with human control |
+
+### Naming constitution
+
+1. Use a literal company-style name.
+2. Start the full name with **The**.
+3. Include **for** before the use case.
+4. Preserve the exact MAGEWA acronym.
+5. Use **Multi-Agent** as the technical foundation.
+6. Use **Global Enterprise** to signal scale.
+7. Use **Work Automation** as the outcome.
+8. Keep the full form grammatically readable.
+
+### Written usage
+
+- Write the brand name as **MAGEWA**, always in all caps.
+- On first reference, use **MAGEWA — The Multi-Agent Global Enterprise for Work Automation**.
+- On subsequent references, use **MAGEWA**.
+- Keep the hyphen in **Multi-Agent**.
+- Use title case for the expanded name in prose.
+- Do not turn the acronym into “Magewa” or “MageWa.”
+- Do not invent alternate expansions of the acronym.
+
+## 3. Brand idea: controlled convergence
+
+MAGEWA coordinates multiple expert systems around shared context, then turns their combined intelligence into one executable outcome.
+
+The identity expresses that movement:
+
+**many inputs → governed coordination → one execution vector**
+
+This is not a story about a ring, loop, portal, or abstract “AI magic.” It is a story about directed work.
+
+## 4. Identity architecture
+
+### Wordmark
+
+The wordmark is the primary identifier: **MAGEWA** in large, heavy, all-caps sans-serif letters. It should feel unequivocal, engineered, and legible at a distance.
+
+The wordmark must not be softened with rounded display lettering, ornamental serifs, or “futuristic” cuts that compromise recognition.
+
+### Figurative mark
+
+The approved figurative concept is **Mark 12: Convergence Vector**.
+
+It consists of six angular wedges moving toward one controlled junction and resolving as a single execution vector. The six wedges suggest multiple agents or streams of context; their convergence represents orchestration; the outward vector represents completed work.
+
+The mark is:
+
+- angular, directional, and compact;
+- constructed from six clearly related wedge modules;
+- readable as coordinated motion rather than a flower or aperture;
+- free of circular centers, rings, holes, openings, or portal-like forms.
+
+The mark must never be redrawn as a loop, knot, spiral, rosette, or generic AI swirl.
+
+### Lockups
+
+Use these identity levels:
+
+1. **Primary:** figurative mark + MAGEWA wordmark.
+2. **Institutional:** primary lockup + full expanded name.
+3. **Compact:** figurative mark alone, only where MAGEWA is already established.
+4. **Editorial:** wordmark alone for large headlines and section dividers.
+
+The figurative mark and wordmark must remain visually distinct. Do not merge the wedges into the letterforms.
+
+## 5. Messaging system
+
+### Primary descriptor
+
+**The Multi-Agent Global Enterprise for Work Automation**
+
+### Primary tagline
 
 **Bind knowledge into deliverables.**
 
-Short alternates:
+### Supporting messages
 
-- From knowledge to craft.
-- The rings that hold your work together.
-- Context that holds water.
+- Managed context for coordinated intelligence.
+- Multi-agent systems built for accountable work.
+- From institutional knowledge to executable outcomes.
+- Versioned inputs. Governed pipelines. Traceable deliverables.
+- Enterprise automation that produces work, not just answers.
 
-## Strategic Rationale
+### Messaging hierarchy
 
-Magewa (曲輪) is the Japanese craft of making bentwood hoops — the structural rings that bind individual staves into a unified vessel. The platform does exactly this: versioned context packs are the rings that bind fragmented knowledge into coherent client deliverables.
+Lead with the outcome, then explain the system:
 
-## Why it works
+1. **Outcome:** finished, usable, traceable work.
+2. **Mechanism:** coordinated multi-agent pipelines.
+3. **Foundation:** managed and versioned context.
+4. **Enterprise proof:** governance, provenance, scale, and control.
 
-- 6 letters, 3 syllables (ma-ge-wa) — smooth, intuitive, ends in -a
-- Real craft heritage — not invented, from centuries of Japanese cooperage
-- Perfect metaphor — the binding element that turns parts into a whole
-- Personification-ready — sounds like a woman's name, warm and elegant
-- Distinctive — nothing like it in SaaS/design tools
-- Stretches — the "binding rings" metaphor works for any process-based industry, not just creative agencies
+Avoid leading with vague claims such as “revolutionary AI,” “limitless creativity,” or “the future of work.”
 
-## Story potential
+## 6. Voice
 
-"In Japanese craft, magewa are the bentwood rings that hold a barrel together. Each ring is shaped by hand, applying just enough pressure to turn separate pieces into something that holds value. We named our platform Magewa because we do the same thing — we bind your knowledge, process, and context into deliverables that hold water."
+MAGEWA sounds like a capable operating system with a point of view: direct, structured, and calm under complexity.
 
-## Visual direction
+### Voice attributes
 
-The brand should feel like the craft it references — warm, precise, tactile — not cold tech.
+- **Definitive:** state what the system does in plain language.
+- **Operational:** use concrete verbs and name the resulting artifact.
+- **Precise:** prefer specific system terms over speculative superlatives.
+- **Scaled:** write for teams, institutions, and shared operations.
+- **Human-controlled:** make governance and accountability visible.
 
-- **Mood**: Warm craft meets clean modern. Japanese restraint, not minimal sterility.
-- **Colors**: Natural wood tones (warm amber, honey oak, cedar) paired with a single dark accent (charcoal or deep indigo). Cream/off-white backgrounds, not pure white.
-- **Typography**: A serif or humanist sans with warmth. Nothing geometric or monospaced for headlines. Think Caslon, Freight Sans, or Inter with tight tracking — readability with personality.
-- **Imagery**: Close-ups of bentwood grain, cooperage hands, ring forms. Abstracted, not literal. Avoid stock "team collaboration" photos.
-- **Motion**: Smooth, tactile transitions. Nothing bouncy or playful. The feeling of shaping something by hand.
+### Writing mechanics
 
-## Logo concept
+- Prefer short declarative sentences.
+- Use active verbs: bind, route, compose, verify, version, approve, deliver.
+- Use nouns that point to work: context, pipeline, brief, proposal, deck, prototype, decision.
+- Use technical language only when it clarifies how the system operates.
+- Use uppercase nomenclature sparingly for labels, identifiers, and system states.
 
-An abstracted bentwood ring — a single curved line or incomplete circle that implies the binding form. Should work at small sizes and in monochrome. Avoid literal barrel imagery. Think: a warm, hand-drawn arc refined into geometric precision. Could incorporate a subtle gap or overlap where the hoop meets itself.
+### Example
 
-## Competitive positioning
+**Before:** Unleash a revolutionary ecosystem of intelligent agents.  
+**After:** Coordinate specialist agents against shared context, then ship a traceable deliverable.
 
-| Brand    | Feel             | Name origin     | Magewa contrast                          |
-| -------- | ---------------- | --------------- | ---------------------------------------- |
-| Figma    | Technical, sleek | Musical figure  | Warmer, more human, craft over precision |
-| Notion   | Clean, cerebral  | "Note" + suffix | More tangible, physical metaphor         |
-| Pitch    | Direct, startupy | English word    | More distinctive, deeper story           |
-| Canva    | Friendly, broad  | Canvas          | More refined, B2B, less consumer         |
-| Webflow  | Technical, fluid | Compound word   | More poetic, heritage-based              |
+## 7. Product vocabulary
 
-Magewa sits in a unique spot: it sounds like a proper name (warm, human) while carrying a real, specific metaphor. None of the competitors have a name rooted in a physical craft tradition.
+| Preferred term | Meaning |
+|---|---|
+| Context Pack | A managed, versioned body of client or institutional knowledge |
+| Pipeline | A repeatable sequence that turns context into an artifact |
+| Agent | A specialist unit assigned a bounded role in the pipeline |
+| Deliverable | A usable output such as a proposal, deck, wireframe, or prototype |
+| Provenance | The visible sources, decisions, and versions behind an output |
+| Preview | A shareable view of work before release or handoff |
+| Registry | A structured index of approved rules, assets, or system states |
 
-## Domain and handles
+Avoid using “prompt” as the primary unit of value. The product is organized around managed context and repeatable work, not isolated chat instructions.
 
-- **Domain**: magewa.com — available now
-- **Trademark**: To be filed. "Magewa" is not a common English word and has no direct software-category registrations, which should make trademarking straightforward. Confirm with legal counsel.
-- **Social handles**: @magewa on major platforms — availability to be checked and claimed early.
-- **GitHub**: github.com/nibzard/magewa — secured.
+## 8. Retired territory
 
-## Risks
+The previous Japanese bentwood, hoop, and ring narrative is retired. It no longer represents the product strategy or the visual identity.
 
-- "Mage" could trigger gaming/fantasy associations for some (minor — the context of a B2B tool makes this negligible)
-- Not instantly recognizable as Japanese — requires the story to unlock (this is actually a feature, not a bug — "surprisingly familiar")
+Do not use:
+
+- ring, hoop, portal, aperture, or loop metaphors;
+- a circular opening as the center of the logo;
+- craft-workshop language as the primary brand frame;
+- warm heritage styling without the industrial system around it;
+- generic neural-network, sparkle, orbit, or infinity symbols;
+- language that reduces MAGEWA to a chatbot or small-business automation tool.
+
+MAGEWA now stands for a literal category, an enterprise operating model, and a directed system of work.
